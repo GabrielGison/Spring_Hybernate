@@ -13,7 +13,7 @@ import java.util.List;
 @Entity
 @Table(name = "phrases")
 public class Phrase {
-    @JsonIgnore
+
     @Id
     @GeneratedValue(strategy = GenerationType.AUTO)
     @Column(name = "id", nullable = false, unique = true)
